@@ -1,0 +1,23 @@
+.converter-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.converter-form > input {
+  flex-basis: 200px;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 30px;
+  margin-right: 10px;
+  line-height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.converter-form > span {
+  flex-basis: 200px;
+  font-size: 25px;
+  font-weight: bold;
+}
